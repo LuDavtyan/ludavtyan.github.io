@@ -1,0 +1,104 @@
+.section5{
+    width: 100%;
+    height: auto;
+    background-color:#ffff;
+}
+
+
+.babayanBox{
+    margin: auto;
+    margin-top: 250px;
+    height: 673px ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.babayanImg img{
+    box-shadow: 10px 9px 30px 4px #aa9597;
+}
+
+.babayanImg h4{
+    padding-bottom: 30px;
+     color:#929A9F ;
+     font-family: DINPro;
+     font-size: 24px;
+ }
+
+ .babayanInfo {
+    width: 550px;
+ }
+ 
+ .babayanInfo h5{
+         padding-top: 90px;
+         padding-bottom: 30px;
+         font-family: DINPro;
+         font-size: 25px;
+         font-weight: bold;
+         line-height: 30px;
+         color: #390307;
+   
+ }
+ 
+ .dicriptionBabayan{
+     font-family: DINPro;
+     font-size: 20px;
+     line-height: 28px;
+     text-align: left;
+     
+ }
+
+
+ .babayanInfo  span {
+    width: 515px;
+    height: 412px;
+    padding-left: 50px;
+    padding-top: 80px;
+    font-size: 18px;
+
+ }
+
+ .babayanPrice{
+    font-family: DINPro;
+    font-size: 18px;
+    line-height: 44px;
+    font-weight: bold;
+}
+
+.babayanEnd{
+    font-family: DINPro;
+    font-size: 18px;
+    line-height: 44px;
+    font-weight: bold;
+}
+
+
+
+.babayanBtn{
+    width: 170px;
+    height: 40px;
+    background-color:#FFFFFF  ;
+    text-align: center;
+    font-family: DINPro;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border: 1px solid red ;
+    margin-top: 20px;
+
+
+}
+
+.babayanBtn:hover {
+    background-color: red;
+    color: #FFFFFF ;
+
+}
+
+
+.babayanImg img{
+    transition: all .1s ease-in-out; 
+}
+.babayanImg img:hover { 
+    transform: scale(1.1); 
+ }

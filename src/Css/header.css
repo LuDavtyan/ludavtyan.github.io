@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1170px;
+    width: 100%;
+    height: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.section{
+    width: 100%;
+    height: auto;
+    background-color:#ffff;
+}
+
+.header{
+    width: 100%;
+    height: 107px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.logo{
+    cursor: pointer;
+}
+.tel{
+    width: 175px;
+    height: 35px;
+    background-color: #ee0505;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 2px;
+}
+
+
+.header .tel a{
+    text-decoration: none;    
+    color: #FFFFFF;
+
+}
+
+
+.projects{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.footerInfo{
+    text-align: center;
+}
+
+.menu a{
+    display: flex;
+    text-decoration: none; 
+    color: #390307;
+    
+}
+
+.menu nav ul {
+    width: 518px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+    font-size: 21px;
+    font-weight: 700;
+
+}

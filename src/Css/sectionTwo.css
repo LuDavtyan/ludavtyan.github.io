@@ -1,0 +1,189 @@
+.section2{
+    width: 100%;
+    height: 1590px;
+    background-color: #fcf6f6;
+}
+
+
+.boxAvan{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 700px;
+    padding-right: 50px;
+    cursor: pointer;
+}
+
+
+.projectsAvan{
+    display: flex;
+    flex-direction: row;
+    padding-top: 80px;
+    width: 350px;
+}
+
+.title h2{
+    padding-top: 70px;
+    font-family: DINPro;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: left;
+    color: #390307 ;
+}
+
+.title h4{
+    padding-top: 30px;
+    color:#929A9F ;
+    font-family: DINPro;
+    font-size: 24px;
+}
+
+.imgAvan{
+    transition: all .1s ease-in-out; 
+}
+.imgAvan:hover { 
+    transform: scale(1.1); 
+ }
+
+.name{
+    font-family: DINPro;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #390307;
+}
+
+.avatarname span{
+    font-family: DINPro;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color: #929A9F;
+    
+
+}
+
+.avanBtn{
+    width: 170px;
+    height: 40px;
+    background-color:#fcf6f6 ;
+    text-align: center;
+    font-family: DINPro;
+    font-size: 18px;
+    color:#390307  ;;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border: 1px solid #ee0505 ;
+
+
+}
+
+
+.avanBtn:hover {
+    background-color: #ee0505;
+    color:#fcf6f6  ;
+
+}
+
+.square{
+    font-family: DINPro;
+    font-size: 20px;
+    line-height: 44px;
+    text-align: left;
+    color:#390307  ;
+}
+
+.end{
+    font-family: DINPro;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 30px;
+    color:#390307  ;
+}
+
+
+.hayViewInfo{
+    width: 825px;
+    height: 584px;
+    background-color: #390307 ;
+    position: relative;
+
+}
+
+
+.arabkirBox{
+    padding-top: 80px;
+}
+
+
+.arabkirBox h4{
+    padding-bottom: 30px;
+    color: #929A9F;
+    font-family: DINPro;
+    font-size: 24px;
+    
+}
+
+
+
+.hayViewImg img{
+    position: absolute;
+    top: 80px;
+    right: -320px;
+    box-shadow: 10px 9px 30px 4px #aa9597;
+}
+
+
+
+
+.infoBox{
+    width: 515px;
+    height: 412px;
+    color: #F5F8FA;
+    padding-left: 50px;
+    padding-top: 80px;
+    
+}
+
+.hayViewTitle{
+    font-family: DINPro;
+    font-size: 30px;
+    line-height: 44px;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+
+.price{
+    font-family: DINPro;
+    font-size: 18px;
+    line-height: 44px;
+    font-weight: bold;
+}
+
+.hayBtn{
+    width: 170px;
+    height: 40px;
+    background-color:#390307  ;
+    text-align: center;
+    font-family: DINPro;
+    font-size: 18px;
+    color: #FFFFFF;;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border: 1px solid #FFFFFF ;
+    margin-top: 20px;
+
+
+}
+
+.hayBtn:hover {
+    background-color: #FFFFFF;
+    color: #390307 ;
+
+}
+
+
+.workEnd{
+    font-size: 18px;
+    line-height: 44px;
+}

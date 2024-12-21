@@ -1,0 +1,97 @@
+.section3{
+    width: 100%;
+    height: auto;
+
+}
+
+
+.ajapnyakBox{
+    height: auto;
+    display: flex;
+    padding-top: 300px;
+    justify-content: space-around;
+
+}
+
+.ajapnyakBox h4{
+    padding-bottom: 30px;
+    color: #929A9F;
+    font-family: DINPro;
+    font-size: 24px;
+}  
+
+.ajapnyakBox h5{
+    font-family: DINPro;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #390307;
+}  
+
+
+.ajpnyakInfo{
+    width: 380px;
+  
+    font-family: DINPro;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color: #929A9F;
+    
+}
+
+.AjInfoBox{ 
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.priceAj{
+    font-family: DINPro;
+    font-size: 20px;
+    line-height: 44px;
+    font-weight: bold;
+    text-align: left;
+    color:#390307 ;
+}
+
+.workEndAj{
+    font-family: DINPro;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 30px;
+    color:#390307  ;
+}
+
+.ajapnyakBtn{
+    width: 170px;
+    height: 40px;
+    background-color: #FFFFFF ;
+    text-align: center;
+    font-family: DINPro;
+    font-size: 18px;
+    color:#390307  ;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border: 1px solid #ee0505 ;
+    margin-top: 10px;
+    
+}
+
+
+.ajapnyakBtn:hover {
+    background-color: #ee0505;
+    color:#fcf6f6  ;
+
+}
+
+
+.ajImg{
+    transition: all .1s ease-in-out; 
+}
+.ajImg:hover { 
+    transform: scale(1.1); 
+ }
+
+
